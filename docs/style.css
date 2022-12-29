@@ -17,16 +17,16 @@
 
 @font-face {
   font-family: SFMono-Medium;
-  src: url(docs/fonts/SFMono/SFMono-Medium.ttf) format(truetype);
+  src: url(../../docs/fonts/SFMono/SFMono-Medium.ttf) format(truetype);
 }
 @font-face {
   font-family: SFMono-Regular;
-  src: url(docs/fonts/SFMono/SFMono-Regular.ttf) format(truetype);
+  src: url(../../docs/fonts/SFMono/SFMono-Regular.ttf) format(truetype);
 }
 
 @font-face {
   font-family: Cailbre-Regular;
-  src: url(docs/fonts/Calibre/Calibre-Regular.ttf) format(truetype);
+  src: url(../../docs/fonts/Calibre/Calibre-Regular.ttf) format(truetype);
 }
 
 :root {
