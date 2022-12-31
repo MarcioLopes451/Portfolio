@@ -19,16 +19,28 @@
 
 @font-face {
   font-family: SFMono-Medium;
+<<<<<<< HEAD
   src: url(/docs/fonts/sfmono/SFMono-Medium.ttf) format(truetype);
 }
 @font-face {
   font-family: SFMono-Regular;
   src: url(/docs/fonts/sfmono/SFMono-Regular.ttf) format(truetype);
+=======
+  src: url(../Porfolio/docs/fonts/sfMono/SFMono-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: SFMono-Regular;
+  src: url(../Porfolio/docs/fonts/sfMono/SFMono-Regular.ttf) format(truetype);
+>>>>>>> 82ee812677c24684c1d19db10cb1fed7a4cbc1d9
 }
 
 @font-face {
   font-family: Cailbre-Regular;
+<<<<<<< HEAD
   src: url(/docs/fonts/calibre/Calibre-Regular.ttf) format(truetype);
+=======
+  src: url(../Porfolio/docs/fonts/calibre/Calibre-Regular.ttf) format(truetype);
+>>>>>>> 82ee812677c24684c1d19db10cb1fed7a4cbc1d9
 }
 
  @import url('https://fonts.cdnfonts.com/css/calibre');
