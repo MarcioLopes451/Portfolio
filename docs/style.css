@@ -3,6 +3,8 @@
   margin: 0;
   font-family: SFMono-Regular;
   box-sizing: border-box;
+  
+  
 }
 
 /*debugging material*/
@@ -28,6 +30,10 @@
   font-family: Cailbre-Regular;
   src: url(/docs/fonts/calibre/Calibre-Regular.ttf) format(truetype);
 }
+
+ @import url('https://fonts.cdnfonts.com/css/calibre');
+
+                
 
 :root {
   --graphite: #2b3a55;
@@ -76,7 +82,7 @@ body {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(-200px);
+    transform: translateY(-190px);
   }
 }
 
@@ -94,7 +100,7 @@ body {
   animation: 1s ease 750ms myFrames;
   animation-fill-mode: forwards;
   width: 500px;
-  margin-top: 600px;
+  margin-top: 500px;
 }
 
 .three h2 {
@@ -111,7 +117,7 @@ body {
   height: 400px;
   background-color: black;
   z-index: 1;
-  margin-top: 1500px;
+  margin-top: 1300px;
 }
 
 .three {
@@ -142,7 +148,6 @@ body {
 .navbar {
   background-color: #313133;
   height: 5rem;
-  font-size: 1.3rem;
   padding-top: 25px;
   margin: 0 3rem;
   animation: 1.5s ease 5s myFrames3;
@@ -186,7 +191,7 @@ body {
 .navbar-item a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .navbar-item a:hover {
@@ -310,6 +315,7 @@ button:hover {
     position: absolute;
     top: 20%;
     right: 5%;
+    margin-top: 10px;
     transform: translate(5%, 20%);
   }
 
@@ -337,7 +343,7 @@ button:hover {
   border-left: 6px solid green;
   height: 500px;
   margin-left: 50px;
-  margin-top: 700px;
+  margin-top: 450px;
   position: fixed;
   transition: 0.5s;
 }
@@ -346,7 +352,7 @@ button:hover {
   height: 100%;
   width: 0;
   transition: 0.5s;
-  padding-top: 490px;
+  padding-top: 250px;
   position: fixed;
   z-index: 9;
 }
@@ -354,7 +360,7 @@ button:hover {
 .sidenav a {
   padding: 26px 10px 10px 40px;
   text-decoration: none;
-  font-size: 1.85rem;
+  font-size: 1.4rem;
   color: white;
   display: flex;
   transition: 0.3s;
@@ -378,7 +384,7 @@ button:hover {
   border-left: 6px solid green;
   height: 500px;
   margin-right: 50px;
-  margin-top: 675px;
+  margin-top: 450px;
   position: fixed;
   right: 0;
   transition: 0.5s;
@@ -389,11 +395,12 @@ button:hover {
   text-orientation: mixed;
   right: 0;
   position: fixed;
-  padding-top: 560px;
+  padding-top: 350px;
   margin-right: 43px;
   color: #ffffff;
   transition: 0.5s;
   z-index: 9;
+  font-size: 0.90rem;
 }
 
 .email:hover {
@@ -448,7 +455,7 @@ button:hover {
 
 .container1 {
   width: 100%;
-  line-height: 2rem;
+  line-height: 1.5rem;
   color: #ffffff;
   margin-left: 10%;
 }
@@ -459,26 +466,26 @@ button:hover {
 }
 
 .title {
-  line-height: 6rem;
-  font-size: 7rem;
+  line-height: 4rem;
+  font-size: 5rem;
   font-family: Cailbre-Regular;
   width: 80%;
   margin-top: 20px;
 }
 
 #subtitle {
-  font-size: 7rem;
+  font-size: 5rem;
   font-family: Cailbre-Regular;
   width: 80%;
   margin-top: 30px;
   color: #baff39;
   opacity: 0.8;
-  line-height: 6rem;
+  line-height: 3rem;
 }
 
 .container1 p {
-  font-size: 2rem;
-  margin-top: 50px;
+  font-size: 1.3rem;
+  margin-top: 20px;
   width: 60%;
   font-family: Cailbre-Regular;
 }
@@ -509,6 +516,11 @@ button:hover {
 
   #smalltitle {
     margin-left: 90px;
+    
+  }
+
+  #subtitle {
+    line-height: 3.9rem;
   }
 }
 /* About me */
@@ -516,7 +528,7 @@ button:hover {
 #aboutme {
   width: 100%;
   display: flex;
-  margin-top: 200px;
+  margin-top: 100px;
   justify-content: space-between;
 }
 
@@ -528,8 +540,8 @@ button:hover {
 }
 
 .container2 h3 {
-  line-height: 6rem;
-  font-size: 4rem;
+  line-height: 4rem;
+  font-size: 3rem;
   font-family: Cailbre-Regular;
   width: 80%;
   color: #baff39;
@@ -538,7 +550,7 @@ button:hover {
 .container2 p {
   font-family: Cailbre-Regular;
   width: 80%;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .skills {
@@ -640,13 +652,13 @@ button:hover {
 
 /* projects */
 
-.project {
+#project {
   margin-top: 100px;
-  width: 90%;
+  width: 85%;
   margin-left: 90px;
 }
 
-.project h2 {
+#project h2 {
   color: #baff39;
   margin-left: 90px;
   font-family: Cailbre-Regular;
@@ -667,10 +679,10 @@ button:hover {
 }
 .project1 h3,
 .project1 p {
-  line-height: 3rem;
+  line-height: 2rem;
   color: #ffffff;
   font-family: Cailbre-Regular;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -687,7 +699,7 @@ button:hover {
 
 .imgcontainer img {
   width: 100%;
-  height: 500px;
+  height: 320px;
   border: 1px solid #baff39;
   border-radius: 10px;
 }
@@ -735,40 +747,41 @@ button:hover {
     display: flex;
   }
 
-  .project {
+  #project {
     margin: auto;
     margin-top: 50px;
   }
 
   .imgcontainer img {
     width: 100%;
+    height: 400px;
   }
 }
 
 /* contact me section */
 
-.contact {
+#contact {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .say {
   display: flex;
   flex-flow: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .say h2 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #baff39;
   font-family: Cailbre-Regular;
 }
 
 .say p {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: #ffffff;
   width: 90%;
   text-align: center;
@@ -776,7 +789,7 @@ button:hover {
 }
 
 .myEmail {
-  font-size: 2rem;
+  font-size: 1.4rem;
   width: 200px;
   height: 50px;
   padding-top: 5px;
@@ -802,6 +815,7 @@ footer {
   color: #baff39;
   opacity: 0.8;
   padding-bottom: 20px;
+  font-size: 0.87rem;
 }
 
 .links {
