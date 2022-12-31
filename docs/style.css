@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: SFMono-Regular;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   
   
@@ -17,33 +17,8 @@
 
 /* fonts */
 
-@font-face {
-  font-family: SFMono-Medium;
-<<<<<<< HEAD
-  src: url(/docs/fonts/sfmono/SFMono-Medium.ttf) format(truetype);
-}
-@font-face {
-  font-family: SFMono-Regular;
-  src: url(/docs/fonts/sfmono/SFMono-Regular.ttf) format(truetype);
-=======
-  src: url(../Porfolio/docs/fonts/sfMono/SFMono-Medium.ttf) format(truetype);
-}
-@font-face {
-  font-family: SFMono-Regular;
-  src: url(../Porfolio/docs/fonts/sfMono/SFMono-Regular.ttf) format(truetype);
->>>>>>> 82ee812677c24684c1d19db10cb1fed7a4cbc1d9
-}
 
-@font-face {
-  font-family: Cailbre-Regular;
-<<<<<<< HEAD
-  src: url(/docs/fonts/calibre/Calibre-Regular.ttf) format(truetype);
-=======
-  src: url(../Porfolio/docs/fonts/calibre/Calibre-Regular.ttf) format(truetype);
->>>>>>> 82ee812677c24684c1d19db10cb1fed7a4cbc1d9
-}
-
- @import url('https://fonts.cdnfonts.com/css/calibre');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rubik&display=swap');
 
                 
 
@@ -120,7 +95,7 @@ body {
   animation-fill-mode: forwards;
   color: white;
   margin-top: 30px;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
 
@@ -203,7 +178,8 @@ body {
 .navbar-item a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-item a:hover {
@@ -228,6 +204,7 @@ button {
   font-weight: bold;
   background-color: transparent;
   border: 3px solid #baff39;
+  cursor: pointer;
 }
 
 button:hover {
@@ -412,7 +389,8 @@ button:hover {
   color: #ffffff;
   transition: 0.5s;
   z-index: 9;
-  font-size: 0.90rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .email:hover {
@@ -460,7 +438,7 @@ button:hover {
   width: 100%;
   display: flex;
   margin-top: 100px;
-  animation: 2s ease-in 5s Fadein;
+  /*animation: 2s ease-in 5s Fadein;*/
   animation-fill-mode: forwards;
   justify-content: space-between;
 }
@@ -480,26 +458,26 @@ button:hover {
 .title {
   line-height: 4rem;
   font-size: 5rem;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   width: 80%;
   margin-top: 20px;
 }
 
 #subtitle {
   font-size: 5rem;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   width: 80%;
   margin-top: 30px;
   color: #baff39;
   opacity: 0.8;
-  line-height: 3rem;
+  line-height: 4rem;
 }
 
 .container1 p {
   font-size: 1.3rem;
   margin-top: 20px;
   width: 60%;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
 }
 
 @keyframes Fadein {
@@ -554,13 +532,13 @@ button:hover {
 .container2 h3 {
   line-height: 4rem;
   font-size: 3rem;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   width: 80%;
   color: #baff39;
 }
 
 .container2 p {
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   width: 80%;
   font-size: 1.3rem;
 }
@@ -608,13 +586,13 @@ button:hover {
   z-index: 9;
   /*background-color: rosybrown;*/
   margin-right: 10%;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   display: none;
 }
 
 #work h2 {
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   font-size: 2.6rem;
   color: #baff39;
 }
@@ -629,18 +607,18 @@ button:hover {
   align-items: center;
   gap: 9rem;
   font-size: 1.5rem;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
 }
 
 .buttons {
   z-index: 9;
   line-height: 4rem;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
 }
 .buttons li {
   list-style: none;
   font-size: 1.7rem;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   transition: 750ms ease;
   cursor: pointer;
 }
@@ -657,7 +635,7 @@ button:hover {
 #Menu2,
 #Menu3,
 #Menu4 {
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 4rem;
 }
@@ -673,7 +651,7 @@ button:hover {
 #project h2 {
   color: #baff39;
   margin-left: 90px;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
 }
 
@@ -693,7 +671,7 @@ button:hover {
 .project1 p {
   line-height: 2rem;
   color: #ffffff;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.3rem;
   text-align: center;
 }
@@ -789,7 +767,7 @@ button:hover {
 .say h2 {
   font-size: 2rem;
   color: #baff39;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
 }
 
 .say p {
@@ -797,7 +775,7 @@ button:hover {
   color: #ffffff;
   width: 90%;
   text-align: center;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
 }
 
 .myEmail {
@@ -811,7 +789,7 @@ button:hover {
 .myEmail a {
   text-decoration: none;
   color: #ffffff;
-  font-family: Cailbre-Regular;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* footer */
