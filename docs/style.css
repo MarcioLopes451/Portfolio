@@ -28,6 +28,7 @@
 
 body {
   background-color: #7a7a7a;
+  overflow-x: hidden;
 }
 
 /*Splash Screen*/
@@ -120,7 +121,7 @@ body {
         width: 300px;
       }
       .three h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-align: center;
       }
     }
@@ -524,6 +525,7 @@ button:hover {
 
   #smalltitle {
     padding-left: 90px;
+    font-size: 1.3rem;
     
   }
 
