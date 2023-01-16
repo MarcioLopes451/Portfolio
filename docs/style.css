@@ -3,8 +3,6 @@
   margin: 0;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
-  
-  
 }
 
 /*debugging material*/
@@ -114,15 +112,19 @@ body {
   flex-flow: column;
 }
 
-@media screen and (max-width:600px) {
-  .hi {
-    width: 300px;
-  }
-  .three h2 {
-    font-size: 1.4rem;
-  }
-  
-}
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      .hi {
+        width: 300px;
+      }
+      .three h2 {
+        font-size: 1.3rem;
+        text-align: center;
+      }
+    }
+
 
 /* Header */
 
@@ -228,7 +230,10 @@ button:hover {
   color: white;
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -500,7 +505,10 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
   .intro {
     display: flex;
     justify-content: center;
